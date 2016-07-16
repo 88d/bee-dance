@@ -1,8 +1,8 @@
 <template>
-    <div class="card" click.trigger="cardClicked()">
-        <div class="card-block">
-            <h1 class="card-title">${title}</h1>
-            <p class="card-text">${cardText}</p>
+    <div class="col-sm-6 col-md-3 card au-animate" click.trigger="cardClicked() ">
+            <div class="card-block ">
+                <h1 class="card-title ">${item.title}</h1>
+                <p class="card-text ">${item.cardText}</p>
+            </div>
         </div>
-    </div>
 </template>
