@@ -2,11 +2,11 @@
 {
     "id":"1",
     "title": "First card",
-    "descriptio": "This is my first card. Read it"
+    "cardText": "This is my first card. Read it"
 },
 {
     "id":"2",
     "title": "Second card",
-    "descriptio": "This is my second card. Read it"
+    "cardText": "This is my second card. Read it"
 }
 ]

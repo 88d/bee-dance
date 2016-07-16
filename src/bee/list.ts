@@ -4,9 +4,8 @@ import { autoinject, bindable } from "aurelia-framework"
 
 @autoinject
 export class List {
-    public items: CardItem[];
+    @bindable public items: CardItem[];
     constructor(private router: Router) {
-        this.items = [{ id: "1", title: "title", description: "description" }];
 
     }
 

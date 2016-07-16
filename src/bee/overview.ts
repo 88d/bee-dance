@@ -7,14 +7,14 @@ export class Overview {
     public items: CardItem[];
 
     constructor(private cardDataService: CardDataService) {
-        this.items = [{id:"1", title:"title", description:"description"}];
+        this.items = [];
     }
 
-    /*private activate(): Promise<void> {
+    private activate(): Promise<void> {
         return this.cardDataService.getAll()
             .then(previews => {
                 this.items = previews;
                 return previews;
             });
-    }*/
+    }
 }
