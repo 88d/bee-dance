@@ -10,7 +10,7 @@ export class Overview {
         this.items = [];
     }
 
-    private activate(): Promise<void> {
+    private activate(): Promise<any> {
         return this.cardDataService.getAll()
             .then(previews => {
                 this.items = previews;

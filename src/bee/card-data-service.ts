@@ -10,7 +10,7 @@ export class CardDataService {
     public getAll(): Promise<CardItem[]> {
         return this.http.fetch("/sample-data/cards.json")
             .then(data => {
-                return data;
+                return data.json();
             });
     }
 }
