@@ -1,0 +1,5 @@
+<template>
+    <require from="./notification"></require>
+    <notification repeat.for="item of queue" item.bind="item" css="transform: translateY(${$index * 50}px);">
+    </notification>
+</template>

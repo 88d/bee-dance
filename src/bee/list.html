@@ -1,0 +1,6 @@
+<template>
+    <require from="./card" as="card-item"></require>
+        <div repeat.for="item of items"">
+            <preview-item item.bind="item"></preview-item>
+        </div>        
+</template>
